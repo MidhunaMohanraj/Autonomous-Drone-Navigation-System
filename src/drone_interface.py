@@ -25,7 +25,7 @@ class DroneInterface(ABC):
         ...
 
     @abstractmethod
-    def land(self) -> None:
+    def land(self) -> None: 
         ...
 
     @abstractmethod
