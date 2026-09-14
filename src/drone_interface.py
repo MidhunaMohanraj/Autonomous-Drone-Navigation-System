@@ -40,7 +40,7 @@ class DroneInterface(ABC):
     @abstractmethod
     def get_state(self) -> DroneState:
         ...
-
+ 
     @abstractmethod
     def get_frame(self) -> np.ndarray:
         """Return current camera frame as an HxWx3 RGB numpy array."""
