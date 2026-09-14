@@ -13,7 +13,6 @@ class DroneState:
     heading_deg: float  # 0 = facing +x (east), increases counter-clockwise
     battery_pct: int
 
-
 class DroneInterface(ABC):
     """Common contract for SimulatedDrone and TelloDrone."""
 
