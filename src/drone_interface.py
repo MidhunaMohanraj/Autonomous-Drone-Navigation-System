@@ -18,7 +18,7 @@ class DroneInterface(ABC):
 
     @abstractmethod
     def connect(self) -> None:
-        ...
+        ... 
 
     @abstractmethod
     def takeoff(self) -> None:
