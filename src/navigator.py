@@ -1,6 +1,5 @@
 """
 Main control loop.
-
 Each tick:
   1. If we don't have a plan (or the world changed), run A* to get waypoints.
   2. Every `vision_check_interval` ticks, ask Gemini to look at the camera
