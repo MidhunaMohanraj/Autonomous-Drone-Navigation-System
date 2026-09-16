@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 class Config:
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
     VISION_CHECK_INTERVAL: int = int(os.getenv("VISION_CHECK_INTERVAL", "5"))
