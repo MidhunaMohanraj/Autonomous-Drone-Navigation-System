@@ -1,7 +1,7 @@
 """
 Central configuration. Loads settings from a .env file (see .env.example).
 """ 
-import os
+import os  
 from dotenv import load_dotenv
 
 load_dotenv()
