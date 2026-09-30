@@ -12,7 +12,7 @@ the routine work, and a slower "smarter" model acts as a semantic safety net.
 """
 from dataclasses import dataclass 
 from typing import List, Optional, Tuple 
-
+ 
 import numpy as np
 
 from src.drone_interface import DroneInterface
