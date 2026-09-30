@@ -11,7 +11,7 @@ This mirrors a common real-world pattern: a fast deterministic planner does
 the routine work, and a slower "smarter" model acts as a semantic safety net.
 """
 from dataclasses import dataclass
-from typing import List, Optional, Tuple
+from typing import List, Optional, Tuple 
 
 import numpy as np
 
